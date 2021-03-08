@@ -1,0 +1,15 @@
+한 일
+1. vscode와 flask / git 연동
+2. gitignore file 생성
+3. python venv 설정
+4. flask로 첫 web server 구동(app.py)
+
+배운 것
+1. git과 autocrlf 설정
+2. git error : src refspec master does not match any
+- 첫 push 할 때 발생할 수 있는 문제로
+- remote와 local의 branch가 일치하지 않을 때
+- add/commit/push를 해보고 안되면 git clone으로 해결
+3. github collaborator
+
+elapsed time: 3 hour

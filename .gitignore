@@ -1,0 +1,7 @@
+.idea
+pybo.db
+*.pyc
+.vscode
+__pycache__
+venv_flask.cmd
+venv_flask
