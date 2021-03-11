@@ -1,4 +1,5 @@
-from flask import Blueprint
+from flask import Blueprint, url_for
+from werkzeug.utils import redirect
 
 bp = Blueprint('main', __name__, url_prefix='/')
 
@@ -8,4 +9,10 @@ def hello_pybo():
 
 @bp.route('/')
 def index():
-    return 'Pybo index'
+    return redirect(url_for('question._list'))
+
+# # question_views 로 이동
+# @bp.route('/detail/<int:question_id>/')
+# def detail(question_id):
+#     question = Question.query.get_or_404(question_id)
+#     return render_template('question/question_detail.html', question=question)
